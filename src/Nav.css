@@ -1,0 +1,33 @@
+.nav {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #508fca;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 24px;
+  border-bottom: 4px solid transparent;
+}
+
+.nav-item.selected {
+  border-bottom-color: #ffaa3f;
+}
+
+.nav button {
+  font-size: 18px;
+  background: transparent;
+  border: none;
+}
+
+.nav button:hover {
+  color: #999;
+  cursor: pointer;
+}
